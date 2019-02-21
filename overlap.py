@@ -26,7 +26,7 @@ class Overlap():
 
 def main():
     print('Initating...')
-    parser = argparse.ArgumentParser(usage='Usage: python filename filename overlap.py',
+    parser = argparse.ArgumentParser(usage='python overlap.py filename filename',
                                      description="Compares two files for overlapping numbers")
     parser.add_argument('file1', type=argparse.FileType('r'))
     parser.add_argument('file2', type=argparse.FileType('r'))
